@@ -26,8 +26,19 @@ func HandleDoudianPostRequestRepo(c echo.Context) error {
 	if err != nil {
 		return err
 	}
-	msgJson, _ := json.Marshal(msgs)
-	fmt.Println(msgJson)
-	return nil
+	for _, msg := range msgs {
+		if msg.Error != nil {
+			fmt.Println(msg.Error)
+			continue
+		}
+		if msg.Message.Tag == new(doudian_message.TradeCreate).Tag() {
+			msgData, ok := msg.Message.DataStruct.(doudian_message.TradeCreate)
+			if !ok {
+				fmt.Println("消息结构体解析异常")
+				continue
+			}
+			fmt.Println("回调的父订单号：", msgData.PId)
+		}
+	}
 }
 ```
