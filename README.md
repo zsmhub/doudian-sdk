@@ -45,8 +45,6 @@ git clone https://github.com/zsmhub/doudian-sdk.git
 
 4. 执行go build命令编译，没有报错说明导入sdk包成功
 
-[SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
-
 ### 获取Acccess Token代码示例
 
 1. 自用型应用获取Access Token
