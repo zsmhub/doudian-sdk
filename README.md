@@ -2,7 +2,7 @@
 
 在官方SDK的基础上，集成了自己整合的消息推送SDK，方便开发者更快速的对接。
 
-依赖的官方SDK版本号：doudian-sdk-golang-1.1.0-20230221172709
+当前项目依赖的官方SDK版本号：doudian-sdk-golang-1.1.0-20230221172709，后续官方SDK版本升级了，我们可直接下载官方最新SDK对本项目进行覆盖升级。
 
 ### 目录结构
 
@@ -10,15 +10,15 @@
 .
 ├── LICENSE
 ├── README.md
-├── api			 # 纯官方SDK代码
-├── core			# 纯官方SDK代码
-├── errors		  # 纯官方SDK代码
-├── example.go	  # 纯官方SDK代码
-├── example_test.go # 纯官方SDK代码
-├── go.mod		  # 纯官方SDK代码
-├── message		 # 自己整合的消息推送SDK
-├── spi			 # 纯官方SDK代码
-└── utils		   # 纯官方SDK代码
+├── api             # 纯官方SDK代码，可覆盖升级
+├── core            # 纯官方SDK代码，可覆盖升级
+├── errors          # 纯官方SDK代码，可覆盖升级
+├── example.go      # 纯官方SDK代码，可覆盖升级
+├── example_test.go # 纯官方SDK代码，可覆盖升级
+├── go.mod          # 纯官方SDK代码，可覆盖升级
+├── message         # 自己整合的消息推送SDK，不可删除
+├── spi             # 纯官方SDK代码，可覆盖升级
+└── utils           # 纯官方SDK代码，可覆盖升级
 ```
 
 ### 安装教程
