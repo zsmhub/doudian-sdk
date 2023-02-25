@@ -39,9 +39,9 @@ git clone https://github.com/zsmhub/doudian-sdk.git
 
 在required模块添加「doudian.com/open/sdk_golang v1.0.0」
 
-在replace模块添加「doudian.com/open/sdk_golang => ./lib/sdk-golang」
+在replace模块添加「doudian.com/open/sdk_golang => ./lib/doudian-sdk」
 
-![img](https://zsmhub.github.io/images/2023/85070dc7744711edb8723436ac12008a.png)
+![img](https://zsmhub.github.io/images/2023/WX20230225-150227.png)
 
 4. 执行go build命令编译，没有报错说明导入sdk包成功
 
