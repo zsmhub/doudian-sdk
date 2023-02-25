@@ -16,7 +16,7 @@
 ├── example.go      # 纯官方SDK代码，可覆盖升级
 ├── example_test.go # 纯官方SDK代码，可覆盖升级
 ├── go.mod          # 纯官方SDK代码，可覆盖升级
-├── message         # 自己整合的消息推送SDK，不可删除
+├── message         # 自己整合的消息推送SDK，不可删除，缺失的消息可自行补上
 ├── spi             # 纯官方SDK代码，可覆盖升级
 └── utils           # 纯官方SDK代码，可覆盖升级
 ```
