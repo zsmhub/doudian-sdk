@@ -144,7 +144,9 @@ func HandleDoudianPostRequestRepo(c echo.Context) error {
 - [SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
 - [消息推送服务接入指南](https://op.jinritemai.com/docs/guide-docs/215/1977)
 
-### 推荐开源项目
+## 推荐开源项目
 
 - [企业微信 GO SDK](https://github.com/zsmhub/workweixin)
-- [微信视频号 GO SDK](https://github.com/zsmhub/wx-channels-sdk)
+- [抖店开放平台GO SDK](https://github.com/zsmhub/doudian-sdk)
+- [微信视频号GO SDK](https://github.com/zsmhub/wx-channels-sdk)
+- [小红书开放平台 GO SDK](https://github.com/zsmhub/xhs-sdk)
