@@ -9,7 +9,7 @@
 - [抖店开放平台](https://op.jinritemai.com/home)
 - [抖店后台](https://fxg.jinritemai.com/login)
 
-### 抖店官方文档
+### 官方文档
 
 - [抖店开放平台文档中心](https://op.jinritemai.com/docs/guide-docs/213/14)
 - [SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
