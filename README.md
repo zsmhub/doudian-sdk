@@ -4,6 +4,17 @@
 
 当前项目依赖的官方SDK版本号：doudian-sdk-golang-1.1.0-20230221172709，后续官方SDK版本升级了，我们可直接下载官方最新SDK对本项目进行覆盖升级。
 
+### 平台链接
+
+- [抖店开放平台](https://op.jinritemai.com/home)
+- [抖店后台](https://fxg.jinritemai.com/login)
+
+### 抖店官方文档
+
+- [抖店开放平台文档中心](https://op.jinritemai.com/docs/guide-docs/213/14)
+- [SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
+- [消息推送服务接入指南](https://op.jinritemai.com/docs/guide-docs/215/1977)
+
 ### 目录结构
 
 ```sh
@@ -137,12 +148,6 @@ func HandleDoudianPostRequestRepo(c echo.Context) error {
 	}
 }
 ```
-
-### 抖店官方文档
-
-- [抖店开放平台文档中心](https://op.jinritemai.com/docs/guide-docs/213/14)
-- [SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
-- [消息推送服务接入指南](https://op.jinritemai.com/docs/guide-docs/215/1977)
 
 ## 推荐开源项目
 
