@@ -14,6 +14,8 @@
 - [抖店开放平台文档中心](https://op.jinritemai.com/docs/guide-docs/213/14)
 - [SDK使用手册](https://op.jinritemai.com/docs/guide-docs/1041/1072)
 - [消息推送服务接入指南](https://op.jinritemai.com/docs/guide-docs/215/1977)
+- [消息tag值对照表](https://op.jinritemai.com/docs/guide-docs/217/1979)
+- [平台基础错误码汇总](https://op.jinritemai.com/docs/guide-docs/212/1427)
 
 ### 目录结构
 
